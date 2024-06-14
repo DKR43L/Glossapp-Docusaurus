@@ -35,7 +35,7 @@ Nach dem Erstellen des Images kann der Container mit folgendem Befehl ausgeführ
 ```bash
 docker run --rm -d -p 3000:6969 -v dokugloss_volume:/app/dokugloss <image_name>
 ```
-Hinweis: Der Port `3000` kann beliebig gewählt werden, muss jedoch in der Dockerfile entsprechend angepasst werden.
+Hinweis: Der Port kann beliebig gewählt werden, muss jedoch unteranderem in der Dockerfile entsprechend angepasst werden.
 
 Nachdem alles funktioniert hat kann die Seite unter der unterstehenden URL erreicht werden (Port kann abweichen):
 http://localhost:3000 
